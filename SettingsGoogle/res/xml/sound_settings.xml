@@ -86,6 +86,13 @@
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
+    <!-- Separate ring & notification toggle -->
+    <SwitchPreference
+        android:key="volume_separate_notification"
+        android:title="@string/volume_separate_notification_title"
+        android:summary="@string/volume_separate_notification_summary"
+        android:order="-134"/>
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.notification.zen.ZenModeSettings"
         android:key="zen_mode"
