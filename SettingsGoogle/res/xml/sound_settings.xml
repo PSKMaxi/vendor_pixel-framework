@@ -216,7 +216,12 @@
     <SwitchPreference
         android:key="charging_sounds"
         android:order="-40"
-        android:title="@string/charging_sounds_title" />
+        android:title="@string/charging_sound_title" />
+
+    <!-- Charging vibro -->
+    <SwitchPreference
+        android:key="charging_vibro"
+        android:title="@string/charging_vibro_title" />
 
     <SwitchPreference
         android:key="docking_sounds"
