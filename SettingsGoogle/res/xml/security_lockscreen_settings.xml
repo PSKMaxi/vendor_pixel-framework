@@ -114,12 +114,6 @@
             android:summary="@string/disable_qs_summary"
             android:defaultValue="true" />
 
-        <Preference
-        android:key="edge_light_preference"
-        android:title="@string/edge_light_title"
-        android:persistent="false"
-        android:fragment="com.android.settings.fragments.EdgeLightSettings" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
